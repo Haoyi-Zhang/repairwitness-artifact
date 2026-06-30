@@ -1,0 +1,29 @@
+{
+  "counterexamples": 0,
+  "failure_resilience": {
+    "runs": 250,
+    "verified": 250
+  },
+  "general_weighted_multicover": {
+    "exact_oracle_agreement": 500,
+    "max_explored_nodes": 507,
+    "median_explored_nodes": 10.0,
+    "runs": 500
+  },
+  "interval_multicover": {
+    "exact_oracle_agreement": 600,
+    "runs": 600
+  },
+  "minimum_augmentation": {
+    "conditional_optimum_agreement": 250,
+    "runs": 250
+  },
+  "runtime_seconds": 4.607610969000234,
+  "seed": 20270630,
+  "total_certificates_replayed": 1900,
+  "weighted_interval_multicover": {
+    "certificate_kind": "CONSECUTIVE_ONES_TU_PRIMAL_DUAL",
+    "exact_oracle_agreement": 300,
+    "runs": 300
+  }
+}

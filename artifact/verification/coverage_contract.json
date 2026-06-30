@@ -1,0 +1,66 @@
+{
+  "branch_aware_coverage_percent": 80.57349929100363,
+  "branch_coverage_percent": 71.23212321232123,
+  "contract": "Coverage is branch-aware and complemented by differential, mutation, independent optimization checkers, redistributable synthetic controls, scalability, and clean-replay validation. The 70% overall branch gate is a release floor, not a sufficiency claim; each core method file must also retain at least 60% branch coverage and 55% statement coverage.",
+  "core_branch_minimum": 60.0,
+  "core_method_files": [
+    {
+      "branch_coverage_percent": 61.666666666666664,
+      "file": "action_suites/semantics.py",
+      "statement_coverage_percent": 73.92996108949416
+    },
+    {
+      "branch_coverage_percent": 76.74418604651163,
+      "file": "action_suites/suite.py",
+      "statement_coverage_percent": 90.43062200956938
+    },
+    {
+      "branch_coverage_percent": 67.85714285714286,
+      "file": "repairwitness/certification.py",
+      "statement_coverage_percent": 87.61467889908256
+    },
+    {
+      "branch_coverage_percent": 68.75,
+      "file": "repairwitness/duality.py",
+      "statement_coverage_percent": 84.21052631578948
+    },
+    {
+      "branch_coverage_percent": 82.92682926829268,
+      "file": "repairwitness/interval.py",
+      "statement_coverage_percent": 89.7560975609756
+    },
+    {
+      "branch_coverage_percent": 63.333333333333336,
+      "file": "repairwitness/oracle.py",
+      "statement_coverage_percent": 70.0
+    },
+    {
+      "branch_coverage_percent": 74.07407407407408,
+      "file": "repairwitness/orlib.py",
+      "statement_coverage_percent": 82.31292517006803
+    },
+    {
+      "branch_coverage_percent": 73.92857142857143,
+      "file": "repairwitness/suite.py",
+      "statement_coverage_percent": 85.52631578947368
+    },
+    {
+      "branch_coverage_percent": 60.256410256410255,
+      "file": "repairwitness/weighted_interval.py",
+      "statement_coverage_percent": 78.85714285714286
+    }
+  ],
+  "core_statement_minimum": 55.0,
+  "covered_branches": 1295,
+  "failed_tests": 0,
+  "finding_count": 0,
+  "findings": [],
+  "kind": "COVERAGE_CONTRACT",
+  "num_branches": 1818,
+  "overall_branch_minimum": 70.0,
+  "overall_statement_minimum": 75.0,
+  "passed_tests": 98,
+  "schema_version": 1,
+  "statement_coverage_percent": 84.32325016559948,
+  "status": "PASS"
+}

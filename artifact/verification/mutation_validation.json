@@ -1,0 +1,248 @@
+{
+  "detected": 29,
+  "detection_rate": 1.0,
+  "mutations": 29,
+  "rows": [
+    {
+      "detected": true,
+      "errors": [
+        "problem digest mismatch"
+      ],
+      "name": "suite_digest"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "upper bound does not equal selected execution cost",
+        "edge e0 maps to an unselected release",
+        "selected suite does not satisfy edge e0",
+        "edge e1 maps to an unselected release",
+        "selected suite does not satisfy edge e1",
+        "edge e2 maps to an unselected release",
+        "selected suite does not satisfy edge e2",
+        "component and forced selections do not recompose the suite"
+      ],
+      "name": "suite_selected"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "invalid lower/upper bound interval",
+        "status does not match replayable proof state: 'EXACT' != 'BOUNDED'",
+        "exact certificate has a nonzero optimality gap",
+        "component lower bounds do not recompose the global bound"
+      ],
+      "name": "suite_lower"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "upper bound does not equal selected execution cost",
+        "status does not match replayable proof state: 'EXACT' != 'BOUNDED'",
+        "exact certificate has a nonzero optimality gap",
+        "component upper bounds do not recompose the global cost"
+      ],
+      "name": "suite_upper"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "global proof kind does not recompose from component proof kinds"
+      ],
+      "name": "suite_proof_kind"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "exact/bounded certificate has an unexpected algorithm identifier"
+      ],
+      "name": "suite_algorithm"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "status does not match replayable proof state: 'BOUNDED' != 'EXACT'"
+      ],
+      "name": "suite_status"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "witness assignments do not match the obligation set",
+        "edge e0 has 0 assigned witnesses; expected 1",
+        "edge e1 has 0 assigned witnesses; expected 1",
+        "edge e2 has 0 assigned witnesses; expected 1"
+      ],
+      "name": "suite_witnesses"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "unsupported solver version: 'tampered'; expected '0.4.0'"
+      ],
+      "name": "suite_version"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "component explored-node counts do not recompose globally"
+      ],
+      "name": "suite_nodes"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "problem digest mismatch"
+      ],
+      "name": "interval_digest"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "selected releases are not the canonical optimum"
+      ],
+      "name": "interval_selected"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "right-endpoint exchange trace mismatch"
+      ],
+      "name": "interval_trace"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "release order mismatch"
+      ],
+      "name": "interval_order"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "certificate does not claim optimality"
+      ],
+      "name": "interval_optimal"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "resilience problem digest mismatch"
+      ],
+      "name": "robust_digest"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "outer and inner selected releases differ",
+        "per-edge witness inventory mismatch",
+        "selected suite lacks the required witness multiplicity",
+        "suite fails exhaustive deletion replay for removed=()"
+      ],
+      "name": "robust_outer_selected"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "per-edge witness inventory mismatch"
+      ],
+      "name": "robust_inventory"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "resilience problem digest mismatch",
+        "suite: problem digest mismatch",
+        "suite: edge e0 has 2 assigned witnesses; expected 1",
+        "suite: edge e1 has 2 assigned witnesses; expected 1",
+        "suite: edge e2 has 2 assigned witnesses; expected 1",
+        "suite: kernel statistics mismatch",
+        "suite: component proofs do not match the replayed component partition",
+        "suite: component 0 proof does not replay deterministically",
+        "suite: component and forced selections do not recompose the suite",
+        "suite: component lower bounds do not recompose the global bound",
+        "suite: component upper bounds do not recompose the global cost"
+      ],
+      "name": "robust_budget"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "augmentation problem digest mismatch"
+      ],
+      "name": "update_digest"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "retained release inventory mismatch"
+      ],
+      "name": "update_retained"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "added releases disagree with residual certificate",
+        "selected suite is not retained union added"
+      ],
+      "name": "update_added"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "selected suite is not retained union added",
+        "selected suite does not satisfy edge 'e0'",
+        "selected suite does not satisfy edge 'e1'",
+        "selected suite does not satisfy edge 'e2'"
+      ],
+      "name": "update_selected"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "residual demand inventory mismatch"
+      ],
+      "name": "update_demands"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "weighted interval problem digest mismatch"
+      ],
+      "name": "weighted_digest"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "selected suite does not satisfy interval we0",
+        "selected suite does not satisfy interval we2",
+        "selected suite does not satisfy interval we1",
+        "primal objective does not equal selected release cost"
+      ],
+      "name": "weighted_selected"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "primal objective does not equal selected release cost",
+        "primal and certified integer dual bounds do not meet"
+      ],
+      "name": "weighted_objective"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "dual objective arithmetic mismatch"
+      ],
+      "name": "weighted_dual_objective"
+    },
+    {
+      "detected": true,
+      "errors": [
+        "integer lower bound is not the ceiling of the dual objective",
+        "primal and certified integer dual bounds do not meet"
+      ],
+      "name": "weighted_dual_lower"
+    }
+  ]
+}

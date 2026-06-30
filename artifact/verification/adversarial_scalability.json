@@ -1,0 +1,19 @@
+{
+  "algorithm": "RIGHT_ENDPOINT_INTERVAL_MULTICOVER",
+  "contract": "Dense-overlap interval control: 20,000 obligations over 10,000 releases with half-universe width and demand three. This is not a prevalence benchmark; it checks that the interval proof path is not only exercised on sparse favorable inputs. Runtime is reported as evidence and fails only if it exceeds the one-minute reproduction bound on the recorded environment.",
+  "demand": 3,
+  "finding_count": 0,
+  "findings": [],
+  "interval_width": 5000,
+  "kind": "ADVERSARIAL_SCALABILITY",
+  "obligation_count": 20000,
+  "peak_traced_bytes": 19955366,
+  "problem_sha256": "bcbe38b0905f553a58d3569d4581492bd4340d44609247802fa9f9e2ee8b94a9",
+  "release_count": 10000,
+  "runtime_seconds_bound": 60.0,
+  "schema_version": 1,
+  "selected_count": 6,
+  "solve_seconds": 22.720119006,
+  "status": "PASS",
+  "verify_seconds": 2.713526014
+}

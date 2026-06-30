@@ -1,0 +1,1581 @@
+{
+  "benchmark": "OR-Library SCP sets 4-6 and A-E",
+  "instance_count": 50,
+  "report_sha256": "1b99abc96ba543cc3e086c81a8820f69d1dc62969be6f9f5096441c74a3440e7",
+  "rows": [
+    {
+      "bounded_milp": {
+        "cost": 429,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.009167574999999317,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.020045,
+      "greedy": {
+        "cost": 438,
+        "feasible": true,
+        "ratio": 1.020979020979021,
+        "seconds": 0.034748915999998076
+      },
+      "input_sha256": "85788fe18b2af8034fea25619a8ce0e8db1c870935854f73d9be4bb721ae445e",
+      "known_optimum": 429,
+      "lp_guided": {
+        "cost": 429,
+        "feasible": true,
+        "lp_bound": 429.0,
+        "ratio": 1.0,
+        "seconds": 0.010831035999999017
+      },
+      "name": "scp41",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 512,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.009244539000000884,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.01991,
+      "greedy": {
+        "cost": 547,
+        "feasible": true,
+        "ratio": 1.068359375,
+        "seconds": 0.033463457999999946
+      },
+      "input_sha256": "08094a5dda03cdc4975e5750978131f45462645ff1f44abd0816c05cf706edd7",
+      "known_optimum": 512,
+      "lp_guided": {
+        "cost": 512,
+        "feasible": true,
+        "lp_bound": 512.0,
+        "ratio": 1.0,
+        "seconds": 0.010653521999998361
+      },
+      "name": "scp42",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 516,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.008969410999995375,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.01992,
+      "greedy": {
+        "cost": 537,
+        "feasible": true,
+        "ratio": 1.0406976744186047,
+        "seconds": 0.03399376500000528
+      },
+      "input_sha256": "19e94d9825584b00fb795af2bd3cd17d1e21966ad75c563c8b936da8b83c4105",
+      "known_optimum": 516,
+      "lp_guided": {
+        "cost": 516,
+        "feasible": true,
+        "lp_bound": 516.0,
+        "ratio": 1.0,
+        "seconds": 0.009912131000000102
+      },
+      "name": "scp43",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 494,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.037846311999999216,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.020045,
+      "greedy": {
+        "cost": 514,
+        "feasible": true,
+        "ratio": 1.040485829959514,
+        "seconds": 0.0338935059999983
+      },
+      "input_sha256": "253cc2e40df68757edb97b272d4b844000297b40894532bd85e33e2e045a6c68",
+      "known_optimum": 494,
+      "lp_guided": {
+        "cost": 497,
+        "feasible": true,
+        "lp_bound": 493.99999999999955,
+        "ratio": 1.0060728744939271,
+        "seconds": 0.010704678000003298
+      },
+      "name": "scp44",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 512,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.00851914199999726,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.019695,
+      "greedy": {
+        "cost": 518,
+        "feasible": true,
+        "ratio": 1.01171875,
+        "seconds": 0.036000624999999786
+      },
+      "input_sha256": "05ddb202c92a26623036486fadd089f73d5ec0ce8cfc262ca44f17a3b9de8863",
+      "known_optimum": 512,
+      "lp_guided": {
+        "cost": 512,
+        "feasible": true,
+        "lp_bound": 512.0,
+        "ratio": 1.0,
+        "seconds": 0.010510359000001301
+      },
+      "name": "scp45",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 560,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.09241938399999583,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.020415,
+      "greedy": {
+        "cost": 585,
+        "feasible": true,
+        "ratio": 1.0446428571428572,
+        "seconds": 0.033350532000000044
+      },
+      "input_sha256": "465c0a82beed8789cf0ae6104c035925d4539b6967956428cd8fbafe65a1c316",
+      "known_optimum": 560,
+      "lp_guided": {
+        "cost": 561,
+        "feasible": true,
+        "lp_bound": 557.25,
+        "ratio": 1.0017857142857143,
+        "seconds": 0.010174378999998623
+      },
+      "name": "scp46",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 430,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.008333241999999075,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.0196,
+      "greedy": {
+        "cost": 447,
+        "feasible": true,
+        "ratio": 1.0395348837209302,
+        "seconds": 0.037431560999998226
+      },
+      "input_sha256": "74bcc2f3544a37c4ef0f18cce72285a665137e9b509fb48e8ab1be581c10a9db",
+      "known_optimum": 430,
+      "lp_guided": {
+        "cost": 430,
+        "feasible": true,
+        "lp_bound": 430.0,
+        "ratio": 1.0,
+        "seconds": 0.0089646529999996
+      },
+      "name": "scp47",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 492,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.8129203729999972,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.020085,
+      "greedy": {
+        "cost": 530,
+        "feasible": true,
+        "ratio": 1.0772357723577235,
+        "seconds": 0.029803557000001035
+      },
+      "input_sha256": "5c1137889bc04ea982f21ce9783c16fb88092d628fd9fe739150821cc03f3be8",
+      "known_optimum": 492,
+      "lp_guided": {
+        "cost": 512,
+        "feasible": true,
+        "lp_bound": 488.66666666666646,
+        "ratio": 1.0406504065040652,
+        "seconds": 0.009530468000001235
+      },
+      "name": "scp48",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 641,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.8775399850000056,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.019775,
+      "greedy": {
+        "cost": 664,
+        "feasible": true,
+        "ratio": 1.0358814352574104,
+        "seconds": 0.03698021800000362
+      },
+      "input_sha256": "4239aa79093ee7cb00ec2958ad5f6e092b0f099742cbd2822bd8ad9177c18c79",
+      "known_optimum": 641,
+      "lp_guided": {
+        "cost": 641,
+        "feasible": true,
+        "lp_bound": 638.5384615384613,
+        "ratio": 1.0,
+        "seconds": 0.009590998999996714
+      },
+      "name": "scp49",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 514,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.01918154599999866,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.019525,
+      "greedy": {
+        "cost": 523,
+        "feasible": true,
+        "ratio": 1.017509727626459,
+        "seconds": 0.031557251999998925
+      },
+      "input_sha256": "d10d8531380a005299a4dce4c08a77c11568cdbd484a0ccf1da3a3e7c65b5187",
+      "known_optimum": 514,
+      "lp_guided": {
+        "cost": 516,
+        "feasible": true,
+        "lp_bound": 513.5,
+        "ratio": 1.0038910505836576,
+        "seconds": 0.00787669199999641
+      },
+      "name": "scp410",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 253,
+        "feasible": true,
+        "gap": 2.2467754490437944e-16,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.5803403489999965,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0199875,
+      "greedy": {
+        "cost": 270,
+        "feasible": true,
+        "ratio": 1.0671936758893281,
+        "seconds": 0.06294037600000024
+      },
+      "input_sha256": "c97d8cb7b00e8528efb9114565c02292fd5efa147ce4bf8e6208df843d1a60f8",
+      "known_optimum": 253,
+      "lp_guided": {
+        "cost": 274,
+        "feasible": true,
+        "lp_bound": 251.22499999999997,
+        "ratio": 1.08300395256917,
+        "seconds": 0.02446991300000434
+      },
+      "name": "scp51",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 302,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.39624681299999764,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0199925,
+      "greedy": {
+        "cost": 325,
+        "feasible": true,
+        "ratio": 1.076158940397351,
+        "seconds": 0.06410502500000348
+      },
+      "input_sha256": "070585918b02d5eee078b03373b6cc4e6d5b1643da06e4b18a3f06963cd1f1b0",
+      "known_optimum": 302,
+      "lp_guided": {
+        "cost": 325,
+        "feasible": true,
+        "lp_bound": 299.761111111111,
+        "ratio": 1.076158940397351,
+        "seconds": 0.018793519999995567
+      },
+      "name": "scp52",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 226,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.015346207999996864,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0200375,
+      "greedy": {
+        "cost": 230,
+        "feasible": true,
+        "ratio": 1.0176991150442478,
+        "seconds": 0.05773628399999353
+      },
+      "input_sha256": "15bf4cdf3e88040b11f9991389c5285001fa665f8a22fc1b17f30a9616a8131a",
+      "known_optimum": 226,
+      "lp_guided": {
+        "cost": 226,
+        "feasible": true,
+        "lp_bound": 226.0,
+        "ratio": 1.0,
+        "seconds": 0.010889497999997388
+      },
+      "name": "scp53",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 242,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.07740566500000057,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0198375,
+      "greedy": {
+        "cost": 251,
+        "feasible": true,
+        "ratio": 1.037190082644628,
+        "seconds": 0.062394884999996236
+      },
+      "input_sha256": "ff32fd1cb0eadd2f056a5eb7b08ba60934253ef2546b449159d5c379d7c803ab",
+      "known_optimum": 242,
+      "lp_guided": {
+        "cost": 252,
+        "feasible": true,
+        "lp_bound": 240.5,
+        "ratio": 1.0413223140495869,
+        "seconds": 0.0125754429999958
+      },
+      "name": "scp54",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 211,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.01613193099999677,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0196375,
+      "greedy": {
+        "cost": 220,
+        "feasible": true,
+        "ratio": 1.042654028436019,
+        "seconds": 0.060563564000005954
+      },
+      "input_sha256": "939e60400a50bd9ca400e90242e5d9085fa7350a74c8827ecc328dfc74f84395",
+      "known_optimum": 211,
+      "lp_guided": {
+        "cost": 211,
+        "feasible": true,
+        "lp_bound": 211.0,
+        "ratio": 1.0,
+        "seconds": 0.012307925000001774
+      },
+      "name": "scp55",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 213,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.021107027999995864,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0199875,
+      "greedy": {
+        "cost": 230,
+        "feasible": true,
+        "ratio": 1.07981220657277,
+        "seconds": 0.06139220300000403
+      },
+      "input_sha256": "1cbb7f77759117fb18c15be5c6b1f79dbf85999ed1f98ba6710b5db82d8e04c9",
+      "known_optimum": 213,
+      "lp_guided": {
+        "cost": 213,
+        "feasible": true,
+        "lp_bound": 212.5,
+        "ratio": 1.0,
+        "seconds": 0.01251530899999409
+      },
+      "name": "scp56",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 293,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.1515666449999955,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.020145,
+      "greedy": {
+        "cost": 313,
+        "feasible": true,
+        "ratio": 1.068259385665529,
+        "seconds": 0.06544411000000139
+      },
+      "input_sha256": "f953675a5252b8108cf438307eefc95edab69ff057bbc4fc601e02b9ff60e51f",
+      "known_optimum": 293,
+      "lp_guided": {
+        "cost": 296,
+        "feasible": true,
+        "lp_bound": 291.77777777777777,
+        "ratio": 1.0102389078498293,
+        "seconds": 0.012840775999997334
+      },
+      "name": "scp57",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 288,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.5157779099999971,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0198025,
+      "greedy": {
+        "cost": 308,
+        "feasible": true,
+        "ratio": 1.0694444444444444,
+        "seconds": 0.0646369660000019
+      },
+      "input_sha256": "23868d4492a4dc1d8879d20fff14aecfe0bbe9181515395a4ad175f69502fbaa",
+      "known_optimum": 288,
+      "lp_guided": {
+        "cost": 290,
+        "feasible": true,
+        "lp_bound": 287.00000000000006,
+        "ratio": 1.0069444444444444,
+        "seconds": 0.014845295999997177
+      },
+      "name": "scp58",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 279,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.016459703000002435,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0196775,
+      "greedy": {
+        "cost": 291,
+        "feasible": true,
+        "ratio": 1.043010752688172,
+        "seconds": 0.05987447100000054
+      },
+      "input_sha256": "cc8bf6b4f4f56ac076041e2f28578e25438bb6de19d32c57432f28de2d255d96",
+      "known_optimum": 279,
+      "lp_guided": {
+        "cost": 279,
+        "feasible": true,
+        "lp_bound": 279.0,
+        "ratio": 1.0,
+        "seconds": 0.011961059999997303
+      },
+      "name": "scp59",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 265,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.01562461800000392,
+        "status": 0,
+        "success": true
+      },
+      "columns": 2000,
+      "density": 0.0200025,
+      "greedy": {
+        "cost": 277,
+        "feasible": true,
+        "ratio": 1.0452830188679245,
+        "seconds": 0.06394242200000377
+      },
+      "input_sha256": "e7d521e4d2df266cb80d87d9f43604bac0805d2bb634b959b21a2f934cb32e87",
+      "known_optimum": 265,
+      "lp_guided": {
+        "cost": 265,
+        "feasible": true,
+        "lp_bound": 265.0,
+        "ratio": 1.0,
+        "seconds": 0.011493637999997475
+      },
+      "name": "scp510",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 138,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 1.2297760129999986,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.04918,
+      "greedy": {
+        "cost": 144,
+        "feasible": true,
+        "ratio": 1.0434782608695652,
+        "seconds": 0.030875924000000055
+      },
+      "input_sha256": "1c3ac390aded677808d035c79f67b4e53f267b4834d534945d4ab80f8ac3d31b",
+      "known_optimum": 138,
+      "lp_guided": {
+        "cost": 157,
+        "feasible": true,
+        "lp_bound": 133.13960113960115,
+        "ratio": 1.1376811594202898,
+        "seconds": 0.011905696999995996
+      },
+      "name": "scp61",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 146,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 1.596098591999997,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.05001,
+      "greedy": {
+        "cost": 164,
+        "feasible": true,
+        "ratio": 1.1232876712328768,
+        "seconds": 0.03204280799999992
+      },
+      "input_sha256": "d496833a8234fb5fd2b091f87d72e40bba573b4bd3c2dc321930f2a0b8604500",
+      "known_optimum": 146,
+      "lp_guided": {
+        "cost": 169,
+        "feasible": true,
+        "lp_bound": 140.4565217391305,
+        "ratio": 1.1575342465753424,
+        "seconds": 0.012454181999999037
+      },
+      "name": "scp62",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 145,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.8422948139999988,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.04961,
+      "greedy": {
+        "cost": 155,
+        "feasible": true,
+        "ratio": 1.0689655172413792,
+        "seconds": 0.03096511799999746
+      },
+      "input_sha256": "312a97df057b8a9059dbd8c057b41a1506af2a809dd14daafeae61c984062fa6",
+      "known_optimum": 145,
+      "lp_guided": {
+        "cost": 168,
+        "feasible": true,
+        "lp_bound": 140.1340155655892,
+        "ratio": 1.1586206896551725,
+        "seconds": 0.012980113000004678
+      },
+      "name": "scp63",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 131,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.5178740590000004,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.049285,
+      "greedy": {
+        "cost": 135,
+        "feasible": true,
+        "ratio": 1.0305343511450382,
+        "seconds": 0.0320799739999984
+      },
+      "input_sha256": "8503f1cc32c8641b0ece857518131b973bf79708a41efcd4d3368a2c5d93921c",
+      "known_optimum": 131,
+      "lp_guided": {
+        "cost": 141,
+        "feasible": true,
+        "lp_bound": 129.0,
+        "ratio": 1.0763358778625953,
+        "seconds": 0.012214075999999352
+      },
+      "name": "scp64",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 161,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 5,
+        "ratio": 1.0,
+        "seconds": 2.091438988,
+        "status": 0,
+        "success": true
+      },
+      "columns": 1000,
+      "density": 0.049715,
+      "greedy": {
+        "cost": 182,
+        "feasible": true,
+        "ratio": 1.1304347826086956,
+        "seconds": 0.032429527999994434
+      },
+      "input_sha256": "cd7deeaf475aacc8997c10337a2a7005d7e5c4eb3d9d6b6a71daf9799c6c2eca",
+      "known_optimum": 161,
+      "lp_guided": {
+        "cost": 177,
+        "feasible": true,
+        "lp_bound": 153.35286994429657,
+        "ratio": 1.0993788819875776,
+        "seconds": 0.013477659999999503
+      },
+      "name": "scp65",
+      "rows": 200
+    },
+    {
+      "bounded_milp": {
+        "cost": 253,
+        "feasible": true,
+        "gap": 0.01581027667984002,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.017735493999993,
+        "status": 1,
+        "success": false
+      },
+      "columns": 3000,
+      "density": 0.02010111111111111,
+      "greedy": {
+        "cost": 271,
+        "feasible": true,
+        "ratio": 1.0711462450592886,
+        "seconds": 0.15413548600000126
+      },
+      "input_sha256": "e47f63dcaf249b141396a0ad9dbb34ace7b97de3d5554907e0bbf5389a5bf39d",
+      "known_optimum": 253,
+      "lp_guided": {
+        "cost": 281,
+        "feasible": true,
+        "lp_bound": 246.83684210526312,
+        "ratio": 1.1106719367588933,
+        "seconds": 0.03297182200000748
+      },
+      "name": "scpa1",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 252,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 3.618300019000003,
+        "status": 0,
+        "success": true
+      },
+      "columns": 3000,
+      "density": 0.020081111111111112,
+      "greedy": {
+        "cost": 269,
+        "feasible": true,
+        "ratio": 1.0674603174603174,
+        "seconds": 0.16334783399999253
+      },
+      "input_sha256": "e8fd17b3e0e505c905531d561f4f594a592d23963fb4bff4115fcf0e58b307de",
+      "known_optimum": 252,
+      "lp_guided": {
+        "cost": 273,
+        "feasible": true,
+        "lp_bound": 247.49636666083003,
+        "ratio": 1.0833333333333333,
+        "seconds": 0.03793307799999468
+      },
+      "name": "scpa2",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 232,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 3,
+        "ratio": 1.0,
+        "seconds": 2.723540596999996,
+        "status": 0,
+        "success": true
+      },
+      "columns": 3000,
+      "density": 0.020085555555555554,
+      "greedy": {
+        "cost": 244,
+        "feasible": true,
+        "ratio": 1.0517241379310345,
+        "seconds": 0.15594020999999714
+      },
+      "input_sha256": "f94819f246404fec3e84ea05c04dacca271a1c8f93cfb2dc398dd693d9eda7a9",
+      "known_optimum": 232,
+      "lp_guided": {
+        "cost": 248,
+        "feasible": true,
+        "lp_bound": 228.00000000000009,
+        "ratio": 1.0689655172413792,
+        "seconds": 0.03488500999999644
+      },
+      "name": "scpa3",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 234,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.2913121280000013,
+        "status": 0,
+        "success": true
+      },
+      "columns": 3000,
+      "density": 0.020093333333333335,
+      "greedy": {
+        "cost": 242,
+        "feasible": true,
+        "ratio": 1.0341880341880343,
+        "seconds": 0.17262944299999106
+      },
+      "input_sha256": "bee46166d53b16141d0148cbe25b16da358bb0de8b7b2ae935c70a302cd481d3",
+      "known_optimum": 234,
+      "lp_guided": {
+        "cost": 256,
+        "feasible": true,
+        "lp_bound": 231.39675174013925,
+        "ratio": 1.0940170940170941,
+        "seconds": 0.036595192999996584
+      },
+      "name": "scpa4",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 236,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 0.482219096999998,
+        "status": 0,
+        "success": true
+      },
+      "columns": 3000,
+      "density": 0.02008,
+      "greedy": {
+        "cost": 242,
+        "feasible": true,
+        "ratio": 1.0254237288135593,
+        "seconds": 0.15859732299999507
+      },
+      "input_sha256": "676c40fc9a984507922345cefb59a6b1f5ff42256e8913e4d470d151eb625255",
+      "known_optimum": 236,
+      "lp_guided": {
+        "cost": 243,
+        "feasible": true,
+        "lp_bound": 234.8888888888888,
+        "ratio": 1.0296610169491525,
+        "seconds": 0.030088426999995477
+      },
+      "name": "scpa5",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 69,
+        "feasible": true,
+        "gap": 0.043478260869565216,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.010492410999987,
+        "status": 1,
+        "success": false
+      },
+      "columns": 3000,
+      "density": 0.04991222222222222,
+      "greedy": {
+        "cost": 75,
+        "feasible": true,
+        "ratio": 1.0869565217391304,
+        "seconds": 0.14656346800001074
+      },
+      "input_sha256": "301b3235b29af5e20f4f4478d5e0f8a472ade9139495fb74d8a9c70811c91fc1",
+      "known_optimum": 69,
+      "lp_guided": {
+        "cost": 76,
+        "feasible": true,
+        "lp_bound": 64.54174222797924,
+        "ratio": 1.1014492753623188,
+        "seconds": 0.05380295200001228
+      },
+      "name": "scpb1",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 76,
+        "feasible": true,
+        "gap": 0.07894736842105246,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.014189963999996,
+        "status": 1,
+        "success": false
+      },
+      "columns": 3000,
+      "density": 0.049854444444444444,
+      "greedy": {
+        "cost": 85,
+        "feasible": true,
+        "ratio": 1.118421052631579,
+        "seconds": 0.15819151299999135
+      },
+      "input_sha256": "d89600b2f4c6300199063aa84346e537819e2ff7837873e911ba2fdeefd059ff",
+      "known_optimum": 76,
+      "lp_guided": {
+        "cost": 90,
+        "feasible": true,
+        "lp_bound": 69.30185498962469,
+        "ratio": 1.1842105263157894,
+        "seconds": 0.046412005999997064
+      },
+      "name": "scpb2",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 80,
+        "feasible": true,
+        "gap": 0.0625,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.028683565999998,
+        "status": 1,
+        "success": false
+      },
+      "columns": 3000,
+      "density": 0.049895555555555554,
+      "greedy": {
+        "cost": 85,
+        "feasible": true,
+        "ratio": 1.0625,
+        "seconds": 0.15199948299999733
+      },
+      "input_sha256": "fb76451bf349d1ecdbcfad1dbf12902e901a306b5caa9be78095ea7860cb0924",
+      "known_optimum": 80,
+      "lp_guided": {
+        "cost": 84,
+        "feasible": true,
+        "lp_bound": 74.15723980253094,
+        "ratio": 1.05,
+        "seconds": 0.041015569999999
+      },
+      "name": "scpb3",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 79,
+        "feasible": true,
+        "gap": 0.0759493670886076,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.031056417000002,
+        "status": 1,
+        "success": false
+      },
+      "columns": 3000,
+      "density": 0.04988111111111111,
+      "greedy": {
+        "cost": 87,
+        "feasible": true,
+        "ratio": 1.1012658227848102,
+        "seconds": 0.15584169899999267
+      },
+      "input_sha256": "2af8da888923351f192fc7b604e8b3aca58fdb7b65dfa9660a824669742b6e22",
+      "known_optimum": 79,
+      "lp_guided": {
+        "cost": 89,
+        "feasible": true,
+        "lp_bound": 71.2160497696465,
+        "ratio": 1.1265822784810127,
+        "seconds": 0.05374228600000208
+      },
+      "name": "scpb4",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 72,
+        "feasible": true,
+        "gap": 0.04166666666666629,
+        "nodes": 2,
+        "ratio": 1.0,
+        "seconds": 4.009440769000008,
+        "status": 1,
+        "success": false
+      },
+      "columns": 3000,
+      "density": 0.04987,
+      "greedy": {
+        "cost": 76,
+        "feasible": true,
+        "ratio": 1.0555555555555556,
+        "seconds": 0.15867738800000097
+      },
+      "input_sha256": "ba760cb95a5294a4b64f8fbddb67f4030833f89817c869d64d94208d4b1a72cf",
+      "known_optimum": 72,
+      "lp_guided": {
+        "cost": 77,
+        "feasible": true,
+        "lp_bound": 67.66612527363884,
+        "ratio": 1.0694444444444444,
+        "seconds": 0.04722974700000293
+      },
+      "name": "scpb5",
+      "rows": 300
+    },
+    {
+      "bounded_milp": {
+        "cost": 227,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 2.1936329589999986,
+        "status": 0,
+        "success": true
+      },
+      "columns": 4000,
+      "density": 0.020025625,
+      "greedy": {
+        "cost": 241,
+        "feasible": true,
+        "ratio": 1.0616740088105727,
+        "seconds": 0.3548909130000055
+      },
+      "input_sha256": "2edb7c60a7b237184d2d1bd2e0548626e7cb68274fb5ed8729ff3c96274f30b4",
+      "known_optimum": 227,
+      "lp_guided": {
+        "cost": 249,
+        "feasible": true,
+        "lp_bound": 223.80099502487565,
+        "ratio": 1.0969162995594715,
+        "seconds": 0.06339624299999969
+      },
+      "name": "scpc1",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 219,
+        "feasible": true,
+        "gap": 0.022831050228312277,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.01422817800001,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.01997125,
+      "greedy": {
+        "cost": 232,
+        "feasible": true,
+        "ratio": 1.0593607305936072,
+        "seconds": 0.35490989999999556
+      },
+      "input_sha256": "e5eee8ff791b3cef6d798d22de4adef0c29ace58c956557c9ac57e2366f04b4c",
+      "known_optimum": 219,
+      "lp_guided": {
+        "cost": 254,
+        "feasible": true,
+        "lp_bound": 212.84747706422033,
+        "ratio": 1.1598173515981736,
+        "seconds": 0.06328084000000445
+      },
+      "name": "scpc2",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 243,
+        "feasible": true,
+        "gap": 0.03292181069958848,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.029451375999997,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.019980625,
+      "greedy": {
+        "cost": 260,
+        "feasible": true,
+        "ratio": 1.0699588477366255,
+        "seconds": 0.3289835260000018
+      },
+      "input_sha256": "ee57a67bdedf79cd8fd4db862d5c24534a29ce485b11a67d18e07107bdf2e515",
+      "known_optimum": 243,
+      "lp_guided": {
+        "cost": 265,
+        "feasible": true,
+        "lp_bound": 234.5828818185523,
+        "ratio": 1.0905349794238683,
+        "seconds": 0.06268845099999965
+      },
+      "name": "scpc3",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 219,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 5,
+        "ratio": 1.0,
+        "seconds": 3.9911953760000074,
+        "status": 0,
+        "success": true
+      },
+      "columns": 4000,
+      "density": 0.019981875,
+      "greedy": {
+        "cost": 237,
+        "feasible": true,
+        "ratio": 1.082191780821918,
+        "seconds": 0.34593798199999526
+      },
+      "input_sha256": "50f6664962ab5310c0f69cd1c7279da4a8df6ababe6b1ff8af6817e44d606b6c",
+      "known_optimum": 219,
+      "lp_guided": {
+        "cost": 241,
+        "feasible": true,
+        "lp_bound": 213.84829894032347,
+        "ratio": 1.1004566210045663,
+        "seconds": 0.06174857199999906
+      },
+      "name": "scpc4",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 215,
+        "feasible": true,
+        "gap": 0.009302325581395349,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.015407435000014,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.019971875,
+      "greedy": {
+        "cost": 222,
+        "feasible": true,
+        "ratio": 1.0325581395348837,
+        "seconds": 0.3362331950000055
+      },
+      "input_sha256": "964524c45719d928d9f8f78da721e118c8cd5ca3e8406b25e74e7499bb9911ac",
+      "known_optimum": 215,
+      "lp_guided": {
+        "cost": 231,
+        "feasible": true,
+        "lp_bound": 211.6364823850321,
+        "ratio": 1.0744186046511628,
+        "seconds": 0.057434190000009266
+      },
+      "name": "scpc5",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 60,
+        "feasible": true,
+        "gap": 0.06666666666666655,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.035864008000004,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.050089375,
+      "greedy": {
+        "cost": 67,
+        "feasible": true,
+        "ratio": 1.1166666666666667,
+        "seconds": 0.32576824100002
+      },
+      "input_sha256": "df385a06892e9c72f70555a08187407d38322a7b2a4a0ef8c7f8c5b0cf72a9f5",
+      "known_optimum": 60,
+      "lp_guided": {
+        "cost": 72,
+        "feasible": true,
+        "lp_bound": 55.30883155829718,
+        "ratio": 1.2,
+        "seconds": 0.08160629900001481
+      },
+      "name": "scpd1",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 66,
+        "feasible": true,
+        "gap": 0.09090909090908719,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.033593471999978,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.050065625,
+      "greedy": {
+        "cost": 69,
+        "feasible": true,
+        "ratio": 1.0454545454545454,
+        "seconds": 0.33483588199999303
+      },
+      "input_sha256": "d7f1f02605500b679842e5c83d90dd30caee92fa4384bee4940d9719c63e6be2",
+      "known_optimum": 66,
+      "lp_guided": {
+        "cost": 69,
+        "feasible": true,
+        "lp_bound": 59.34537596723838,
+        "ratio": 1.0454545454545454,
+        "seconds": 0.08075887399999715
+      },
+      "name": "scpd2",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 72,
+        "feasible": true,
+        "gap": 0.08333333333333405,
+        "nodes": 0,
+        "ratio": 1.0,
+        "seconds": 4.02903428800002,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.050101875,
+      "greedy": {
+        "cost": 77,
+        "feasible": true,
+        "ratio": 1.0694444444444444,
+        "seconds": 0.35330193599997983
+      },
+      "input_sha256": "e22e632b7392bf13dc7cf322130a7ab1239b0bcbfda511856d81fb73ecd99ee4",
+      "known_optimum": 72,
+      "lp_guided": {
+        "cost": 85,
+        "feasible": true,
+        "lp_bound": 65.06657024221957,
+        "ratio": 1.1805555555555556,
+        "seconds": 0.08914989699999865
+      },
+      "name": "scpd3",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 63,
+        "feasible": true,
+        "gap": 0.09523809523809443,
+        "nodes": 0,
+        "ratio": 1.0161290322580645,
+        "seconds": 4.031536082999992,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.05002125,
+      "greedy": {
+        "cost": 68,
+        "feasible": true,
+        "ratio": 1.096774193548387,
+        "seconds": 0.37685594900000297
+      },
+      "input_sha256": "735a292f127584092bdb62941e042f44cbf7c93d8d9c7468d6a97c9d5548ccb0",
+      "known_optimum": 62,
+      "lp_guided": {
+        "cost": 69,
+        "feasible": true,
+        "lp_bound": 55.84147442961456,
+        "ratio": 1.1129032258064515,
+        "seconds": 0.08299167399999874
+      },
+      "name": "scpd4",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 61,
+        "feasible": true,
+        "gap": 0.03278688524590175,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 4.020624730999998,
+        "status": 1,
+        "success": false
+      },
+      "columns": 4000,
+      "density": 0.050045,
+      "greedy": {
+        "cost": 67,
+        "feasible": true,
+        "ratio": 1.098360655737705,
+        "seconds": 0.37574156599998787
+      },
+      "input_sha256": "52aa055bd3ef900a451a7c665e72677dc989010e12287edca1ee4bf9550fa1b7",
+      "known_optimum": 61,
+      "lp_guided": {
+        "cost": 66,
+        "feasible": true,
+        "lp_bound": 58.61545177317785,
+        "ratio": 1.0819672131147542,
+        "seconds": 0.08982049100001177
+      },
+      "name": "scpd5",
+      "rows": 400
+    },
+    {
+      "bounded_milp": {
+        "cost": 5,
+        "feasible": true,
+        "gap": 0.0,
+        "nodes": 1,
+        "ratio": 1.0,
+        "seconds": 1.561176104999987,
+        "status": 0,
+        "success": true
+      },
+      "columns": 500,
+      "density": 0.19656,
+      "greedy": {
+        "cost": 5,
+        "feasible": true,
+        "ratio": 1.0,
+        "seconds": 0.0023201580000034028
+      },
+      "input_sha256": "c04388428fd4050661d9a14e2beb50bc3fc203856a0cab2a782c3ea751da6246",
+      "known_optimum": 5,
+      "lp_guided": {
+        "cost": 6,
+        "feasible": true,
+        "lp_bound": 3.479491590469379,
+        "ratio": 1.2,
+        "seconds": 0.0064447000000029675
+      },
+      "name": "scpe1",
+      "rows": 50
+    },
+    {
+      "bounded_milp": {
+        "cost": 5,
+        "feasible": true,
+        "gap": 0.20000000000023177,
+        "nodes": 2,
+        "ratio": 1.0,
+        "seconds": 4.0648846969999965,
+        "status": 1,
+        "success": false
+      },
+      "columns": 500,
+      "density": 0.20052,
+      "greedy": {
+        "cost": 5,
+        "feasible": true,
+        "ratio": 1.0,
+        "seconds": 0.002047469000018509
+      },
+      "input_sha256": "4f8cc3b46794583980f3ba8a0d1ba4ec8a7ce8e0e08553caa4c49f7221d41c8c",
+      "known_optimum": 5,
+      "lp_guided": {
+        "cost": 5,
+        "feasible": true,
+        "lp_bound": 3.3820763211813767,
+        "ratio": 1.0,
+        "seconds": 0.006193402000008064
+      },
+      "name": "scpe2",
+      "rows": 50
+    },
+    {
+      "bounded_milp": {
+        "cost": 5,
+        "feasible": true,
+        "gap": 0.199999999999999,
+        "nodes": 2,
+        "ratio": 1.0,
+        "seconds": 4.055889425999993,
+        "status": 1,
+        "success": false
+      },
+      "columns": 500,
+      "density": 0.2016,
+      "greedy": {
+        "cost": 5,
+        "feasible": true,
+        "ratio": 1.0,
+        "seconds": 0.0020231519999924785
+      },
+      "input_sha256": "b314906d85d852a2dbff9b6b536b44720c22b7d0fc7039d37a722ed3f5ba700b",
+      "known_optimum": 5,
+      "lp_guided": {
+        "cost": 7,
+        "feasible": true,
+        "lp_bound": 3.2989032446249853,
+        "ratio": 1.4,
+        "seconds": 0.0056494339999915155
+      },
+      "name": "scpe3",
+      "rows": 50
+    },
+    {
+      "bounded_milp": {
+        "cost": 5,
+        "feasible": true,
+        "gap": 0.19999999999999943,
+        "nodes": 2,
+        "ratio": 1.0,
+        "seconds": 4.001676779999997,
+        "status": 1,
+        "success": false
+      },
+      "columns": 500,
+      "density": 0.19808,
+      "greedy": {
+        "cost": 6,
+        "feasible": true,
+        "ratio": 1.2,
+        "seconds": 0.0021944000000075903
+      },
+      "input_sha256": "dddeb72f933467237223f2fbd35abca659f1fe22bf4abfbd36d649ce16d4e236",
+      "known_optimum": 5,
+      "lp_guided": {
+        "cost": 7,
+        "feasible": true,
+        "lp_bound": 3.4539846234627913,
+        "ratio": 1.4,
+        "seconds": 0.0062699380000026395
+      },
+      "name": "scpe4",
+      "rows": 50
+    },
+    {
+      "bounded_milp": {
+        "cost": 5,
+        "feasible": true,
+        "gap": 0.2000000000000027,
+        "nodes": 2,
+        "ratio": 1.0,
+        "seconds": 4.128290300999993,
+        "status": 1,
+        "success": false
+      },
+      "columns": 500,
+      "density": 0.20068,
+      "greedy": {
+        "cost": 5,
+        "feasible": true,
+        "ratio": 1.0,
+        "seconds": 0.0020792760000176713
+      },
+      "input_sha256": "c45d19716391da9500acbc6f36ea76efbbc48407aee681723140538c95acdf38",
+      "known_optimum": 5,
+      "lp_guided": {
+        "cost": 6,
+        "feasible": true,
+        "lp_bound": 3.3908325514419237,
+        "ratio": 1.2,
+        "seconds": 0.006461693999995077
+      },
+      "name": "scpe5",
+      "rows": 50
+    }
+  ],
+  "schema_version": 1,
+  "summary": {
+    "bounded_milp": {
+      "completed": 50,
+      "max_ratio": 1.0161290322580645,
+      "mean_ratio": 1.0003225806451612,
+      "median_ratio": 1.0,
+      "optimal": 49
+    },
+    "greedy": {
+      "completed": 50,
+      "max_ratio": 1.2,
+      "mean_ratio": 1.058950739794463,
+      "median_ratio": 1.0574581430745815,
+      "optimal": 4
+    },
+    "lp_guided": {
+      "completed": 50,
+      "max_ratio": 1.4,
+      "mean_ratio": 1.0832195855950137,
+      "median_ratio": 1.075288772524257,
+      "optimal": 12
+    }
+  }
+}

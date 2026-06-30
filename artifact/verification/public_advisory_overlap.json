@@ -1,0 +1,49 @@
+{
+  "action_divergent_edges": 3,
+  "affected_set_equal_edges": 3,
+  "claim_count": 6,
+  "contract": "A redistributable GHAD/PyPA overlap fixture is replayed from included source records and frozen PyPI release universes. It is a construct witness, not a prevalence estimate: all included edges have identical affected-release sets while repair-action semantics exposes a concrete target/mechanism difference.",
+  "edge_count": 3,
+  "edge_result_digest": "e04feaf630d2de29cac737ea435100a13c5c5d89e34d518283ea0b54b4add426",
+  "edge_results": [
+    {
+      "action_decision": "DIVERGENT",
+      "affected_set_decision": "EQUIVALENT",
+      "edge_id": "edge-03bd45e4d15ac63868b61d27",
+      "first_witness": "3.2",
+      "package_key": "pypi::plone",
+      "witness_count": 145
+    },
+    {
+      "action_decision": "DIVERGENT",
+      "affected_set_decision": "EQUIVALENT",
+      "edge_id": "edge-1173f9d5c0e82f20afea13a4",
+      "first_witness": "2.0.28",
+      "package_key": "pypi::rembg",
+      "witness_count": 29
+    },
+    {
+      "action_decision": "DIVERGENT",
+      "affected_set_decision": "EQUIVALENT",
+      "edge_id": "edge-12d8eaa3f9b2a99ee9eabca3",
+      "first_witness": "5.0",
+      "package_key": "pypi::plone",
+      "witness_count": 37
+    }
+  ],
+  "finding_count": 0,
+  "findings": [],
+  "fixture_sha256": {
+    "claims": "551009f162b4d1c5b2a48847d76122ed007ac5222827bfe563f98be932b84780",
+    "edges": "dc0d2de411be29c821a15d7b73fb9af6830a6533f09b74996ba2b5f8a208521a",
+    "records": "12001da0130f62dc85bc34aba40d8d68cc6023c32aebed801e19288312b599df",
+    "release_universes": "4d2a003127474d6fb1a9f056d568c93d09d1f6c6d368de2dd083f54a4dc23b79"
+  },
+  "kind": "PUBLIC_ADVISORY_OVERLAP",
+  "max_witnesses_per_edge": 145,
+  "min_witnesses_per_edge": 29,
+  "package_count": 2,
+  "record_count": 6,
+  "schema_version": 1,
+  "status": "PASS"
+}

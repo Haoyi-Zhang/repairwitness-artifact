@@ -1,0 +1,45 @@
+{
+  "algorithm": "RIGHT_ENDPOINT_INTERVAL_MULTICOVER",
+  "complexity": "O((m+n+|S|) log n) time and O(m+n) auxiliary state",
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "platform": "linux",
+    "python": "3.13.5"
+  },
+  "report_sha256": "e13c377be343bbddfbf15384953b0a4b759bdc092859de1e8c01f3a979576564",
+  "rows": [
+    {
+      "obligation_count": 1000,
+      "problem_sha256": "4f1534d8f126c5c2ddfbbcee71a18ffb21effd1313b453a44609bbe804a0aef2",
+      "release_count": 1000,
+      "rss_before_mib": 281.09375,
+      "rss_peak_mib": 281.27734375,
+      "selected_count": 30,
+      "solve_seconds": 0.009289635999948587,
+      "verify_seconds": 0.004345139000065501
+    },
+    {
+      "obligation_count": 10000,
+      "problem_sha256": "8ad020eff93965cda5387777a57fc2cf6cf98b0248fc2f0dc7bb47303229c79d",
+      "release_count": 10000,
+      "rss_before_mib": 284.4765625,
+      "rss_peak_mib": 292.43359375,
+      "selected_count": 296,
+      "solve_seconds": 0.13946380200002295,
+      "verify_seconds": 0.05803855999999996
+    },
+    {
+      "obligation_count": 100000,
+      "problem_sha256": "112f611bdfbea3b7d095d1e1b70006afd28cec0409143e9c4344d5580c826a33",
+      "release_count": 100000,
+      "rss_before_mib": 316.8671875,
+      "rss_peak_mib": 396.171875,
+      "selected_count": 2942,
+      "solve_seconds": 1.4797266220000438,
+      "verify_seconds": 0.6435112410000556
+    }
+  ],
+  "schema_version": 1,
+  "status": "PASS"
+}

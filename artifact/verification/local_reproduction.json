@@ -1,0 +1,21 @@
+{
+  "adversarial_scalability": "PASS",
+  "anonymous_audit": "PASS",
+  "baseline_fairness": "PASS",
+  "clean_extraction_replay": "PASS",
+  "coverage_contract": "PASS",
+  "deterministic_packaging": "PASS",
+  "kind": "LOCAL_REPRODUCTION",
+  "method_smoke": "PASS",
+  "offline_install_contract": "PASS",
+  "optimization_impact": "PASS",
+  "result_validation": "PASS",
+  "safetydb_historical_scope": "PASS",
+  "schema_version": 1,
+  "self_test_code_sha256": "6b6b0ded3bc597e6947605112797c90a8b8dc3fafce736221ba8a239a27f0084",
+  "self_test_combined_sha256": "828b815c2991511dec0ad11fe17166d3ef4cd3a13320e0fd9edcd6ff34c1f381",
+  "status": "PASS",
+  "synthetic_advisory_benchmark": "PASS",
+  "temporal_scope": "PASS",
+  "tests": "PASS"
+}

@@ -1,0 +1,19 @@
+{
+  "advisory_access_dates": {
+    "C-GHAD": "2026-06-22",
+    "C-GOVULNDB": "2026-06-22",
+    "C-PYPA": "2026-06-22",
+    "C-RUBYSEC": "2026-06-22",
+    "C-RUSTSEC": "2026-06-22"
+  },
+  "advisory_source_count": 5,
+  "contract": "The SafetyDB evidence is a frozen 2021.7.17 historical case study; 2026-06-22 advisory-source commits document current-source boundaries and provenance but are not mixed into a current-prevalence claim.",
+  "finding_count": 0,
+  "findings": [],
+  "historical_benchmark": "Safety DB 2021.7.17 historical external benchmark",
+  "historical_scope_status": "PASS",
+  "kind": "TEMPORAL_SCOPE",
+  "registry_family_count": 9,
+  "schema_version": 1,
+  "status": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "all_certificates_valid": true,
+  "benchmark": "Safety DB 2021.7.17 historical external benchmark",
+  "claims_with_cve": 1246,
+  "contract": "SafetyDB evidence is a frozen 2021.7.17 historical PyPI case study with digest-bound summaries and non-redistributed source inputs; it is not a current prevalence, full source-level reproducibility, or live-registry claim. Redistributable synthetic controls cover source-level semantics separately.",
+  "edges": 602,
+  "finding_count": 0,
+  "findings": [],
+  "groups_executed": 97,
+  "input_sha256": {
+    "insecure_full.json": "94bbd265271d36029fad36c837847311fcfc5eab346d10fb70bfa46c37c9c18e",
+    "release_universes.jsonl": "072fd464146b8d5cebff18e656ef29f26e1c56c4fbe0867972ddd49fd3badf8c"
+  },
+  "kind": "SAFETYDB_HISTORICAL_SCOPE",
+  "resolved_divergent_edges": 570,
+  "schema_version": 1,
+  "status": "PASS"
+}

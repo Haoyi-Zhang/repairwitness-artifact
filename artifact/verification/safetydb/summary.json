@@ -1,0 +1,105 @@
+{
+  "benchmark": "Safety DB 2021.7.17 historical external benchmark",
+  "comparator_ablation": {
+    "affected_set_equal": {
+      "accuracy": 1.0,
+      "correct": 602,
+      "edges": 602,
+      "false_divergent": 0,
+      "false_equivalent": 0
+    },
+    "normalised_equal": {
+      "accuracy": 0.96843853820598,
+      "correct": 583,
+      "edges": 602,
+      "false_divergent": 19,
+      "false_equivalent": 0
+    },
+    "raw_equal": {
+      "accuracy": 0.96843853820598,
+      "correct": 583,
+      "edges": 602,
+      "false_divergent": 19,
+      "false_equivalent": 0
+    }
+  },
+  "external_baselines": {
+    "ALL_WITNESSES": {
+      "feasible": 97,
+      "median_objective": 23,
+      "median_runtime_seconds": 1.4643999747931957e-05,
+      "objective_matches_exact": 9,
+      "runs": 97
+    },
+    "PER_EDGE_FIRST": {
+      "feasible": 97,
+      "median_objective": 2,
+      "median_runtime_seconds": 1.4537999959429726e-05,
+      "objective_matches_exact": 88,
+      "runs": 97
+    },
+    "SCIPY_HIGHS_MILP": {
+      "feasible": 97,
+      "median_objective": 2,
+      "median_runtime_seconds": 0.0024179579995688982,
+      "objective_matches_exact": 97,
+      "runs": 97
+    },
+    "SETCOVERPY_GREEDY": {
+      "feasible": 97,
+      "median_objective": 2,
+      "median_runtime_seconds": 0.00015728900052636163,
+      "objective_matches_exact": 97,
+      "runs": 97
+    },
+    "SETCOVERPY_LAGRANGIAN": {
+      "feasible": 97,
+      "median_objective": 2,
+      "median_runtime_seconds": 0.029823544000464608,
+      "objective_matches_exact": 97,
+      "runs": 97
+    }
+  },
+  "input_sha256": {
+    "insecure_full.json": "94bbd265271d36029fad36c837847311fcfc5eab346d10fb70bfa46c37c9c18e",
+    "release_universes.jsonl": "072fd464146b8d5cebff18e656ef29f26e1c56c4fbe0867972ddd49fd3badf8c"
+  },
+  "inventory": {
+    "claims_in_grouped_frame": 398,
+    "claims_with_cve": 1246,
+    "edge_dispositions": {
+      "RESOLVED_DIVERGENT": 570,
+      "RESOLVED_EQUIVALENT": 32
+    },
+    "edges": 602,
+    "groups_with_concrete_divergence": 97,
+    "groups_with_multiple_records": 117,
+    "inventory_digest": "374365350f5a379508e6db616dd77203de9b79ebd60e2b1565bddba9f15b57bc",
+    "release_statuses": {
+      "EMPTY": 10,
+      "FAILED": 34,
+      "SUCCESS": 1319
+    },
+    "release_universes": 1363
+  },
+  "schema_version": 1,
+  "solver": {
+    "all_certificates_valid": true,
+    "all_greedy_certificates_valid": true,
+    "exact_objective_max": 5,
+    "exact_objective_median": 2,
+    "greedy_optimal_runs": 97,
+    "greedy_worst_ratio": 1.0,
+    "groups_executed": 97,
+    "highs_exact_agreement": 97,
+    "incremental_groups": 72,
+    "interval_all_valid": true,
+    "interval_applicable_groups": 20,
+    "median_compression_vs_all_witnesses": 0.9024390243902439,
+    "resilient_f1_groups": 67,
+    "runtime_exact_max_seconds": 0.001482088000557269,
+    "runtime_exact_median_seconds": 0.0002239340001324308,
+    "runtime_exact_p95_seconds": 0.0005673220002790913,
+    "runtime_total_seconds": 21.36134362300072
+  }
+}

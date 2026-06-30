@@ -1,0 +1,110 @@
+{
+  "cross_certification": {
+    "instances": 64,
+    "max_runtime_ms": 5.5188009999938,
+    "median_runtime_ms": 3.050633499981359,
+    "strict_bundle_replay_pass": 64
+  },
+  "elapsed_seconds": 1.8913682849999987,
+  "environment": {
+    "implementation": "CPython",
+    "machine": "x86_64",
+    "platform": "linux",
+    "python": "3.13.5"
+  },
+  "general_weighted_multicover": {
+    "certificate_replay_pass": 384,
+    "exact_oracle_agreement": 192,
+    "greedy_max_ratio": 1.3333333333333333,
+    "greedy_mean_ratio": 1.0190710759261616,
+    "instances": 192,
+    "max_explored_nodes": 312,
+    "max_runtime_ms": 0.5547549999391777,
+    "median_explored_nodes": 3.0,
+    "median_runtime_ms": 0.11364799996727015,
+    "permutation_invariance": 192
+  },
+  "independent_milp": {
+    "instances": 32,
+    "max_runtime_ms": 2.8835450000315177,
+    "median_runtime_ms": 1.4412914999866189,
+    "objective_agreement": 32
+  },
+  "interval_multicover": {
+    "certificate_replay_pass": 160,
+    "exact_generic_agreement": 160,
+    "instances": 160,
+    "max_runtime_ms": 0.272397000003366,
+    "median_runtime_ms": 0.11626200006276122
+  },
+  "mutation": {
+    "detected": 6,
+    "mutations": 6,
+    "rows": [
+      {
+        "detected": true,
+        "errors": [
+          "problem digest mismatch"
+        ],
+        "mutation": "digest"
+      },
+      {
+        "detected": true,
+        "errors": [
+          "upper bound does not equal selected execution cost",
+          "exact certificate has a nonzero optimality gap",
+          "component upper bounds do not recompose the global cost"
+        ],
+        "mutation": "upper"
+      },
+      {
+        "detected": true,
+        "errors": [
+          "invalid lower/upper bound interval",
+          "exact certificate has a nonzero optimality gap",
+          "component lower bounds do not recompose the global bound"
+        ],
+        "mutation": "lower"
+      },
+      {
+        "detected": true,
+        "errors": [
+          "global proof kind does not recompose from component proof kinds"
+        ],
+        "mutation": "proof"
+      },
+      {
+        "detected": true,
+        "errors": [
+          "upper bound does not equal selected execution cost",
+          "edge e1 maps to an unselected release",
+          "selected suite does not satisfy edge e1",
+          "edge e2 maps to an unselected release",
+          "selected suite does not satisfy edge e2",
+          "edge e3 maps to an unselected release",
+          "selected suite does not satisfy edge e3",
+          "component and forced selections do not recompose the suite"
+        ],
+        "mutation": "selection"
+      },
+      {
+        "detected": true,
+        "errors": [
+          "unsupported solver version: '0.0.0'; expected '0.4.0'"
+        ],
+        "mutation": "solver"
+      }
+    ]
+  },
+  "report_sha256": "976296d9e7420079a092a49f22fb867d4e08fdc77a3b1029766ffb3e6bbcc31c",
+  "schema_version": 1,
+  "seed": 20270630,
+  "status": "PASS",
+  "weighted_interval_multicover": {
+    "exact_generic_agreement": 96,
+    "instances": 96,
+    "max_runtime_ms": 922.3109069999964,
+    "median_runtime_ms": 3.869496999925559,
+    "primal_dual_certificate_pass": 96
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "abstention_control_count": 8,
+  "canonical_decision_counts": {
+    "ABSTAIN": 8,
+    "DIVERGENT": 32,
+    "EQUIVALENT": 56
+  },
+  "certificate_rows": 16,
+  "claim_count": 192,
+  "comparator_decision_rows": [
+    {
+      "abstained": 8,
+      "comparator": "ACTION",
+      "decided": 88,
+      "decision_rate": 0.9166666666666666,
+      "divergent": 32,
+      "edges": 96,
+      "equivalent": 56,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 0
+    },
+    {
+      "abstained": 0,
+      "comparator": "AFFECTED_SET",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 24,
+      "edges": 96,
+      "equivalent": 72,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 8
+    },
+    {
+      "abstained": 0,
+      "comparator": "RAW",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 96,
+      "edges": 96,
+      "equivalent": 0,
+      "false_divergence_count": 56,
+      "false_equivalence_count": 0
+    },
+    {
+      "abstained": 0,
+      "comparator": "STRUCTURAL",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 40,
+      "edges": 96,
+      "equivalent": 56,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 0
+    },
+    {
+      "abstained": 0,
+      "comparator": "UNIVERS",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 24,
+      "edges": 96,
+      "equivalent": 72,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 8
+    },
+    {
+      "abstained": 0,
+      "comparator": "VERS",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 32,
+      "edges": 96,
+      "equivalent": 64,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 8
+    }
+  ],
+  "contract": "Redistributable synthetic claim, edge, and release-universe JSONL fixtures exercise the action semantics, baseline abstentions, known-equivalent negative controls, divergent controls, and suite certificates without contributing to SafetyDB prevalence claims.",
+  "divergent_control_count": 32,
+  "divergent_control_missed_count": 0,
+  "edge_count": 96,
+  "expected_decision_counts": {
+    "ABSTAIN": 8,
+    "DIVERGENT": 32,
+    "EQUIVALENT": 56
+  },
+  "finding_count": 0,
+  "findings": [],
+  "fixture_sha256": {
+    "claims": "fb1c4400699ce1004387ee973ea5418545c0b8aa05c7f099f0c35b86cc16ff44",
+    "edges": "8580abe3674c35042e2c6eaf56fcd70dada076b94a9579b1ce517246346f9ebd",
+    "release_universes": "8512a34d0b285bbefae6f05e8ef37dbea588725f95dc11a31c12fd7f483dfaef"
+  },
+  "groups_with_suites": 8,
+  "kind": "SYNTHETIC_ADVISORY_BENCHMARK",
+  "max_exact_explored_nodes": 9,
+  "negative_control_count": 56,
+  "negative_control_false_divergence_count": 0,
+  "package_count": 12,
+  "schema_version": 1,
+  "status": "PASS",
+  "trace_digest_sha256": "f868a564698981d6f713157c09b615499c6f7393bec9616e0057491a9c849ed1"
+}

@@ -1,0 +1,24 @@
+{
+  "claim_count": 6,
+  "discovery_scan_prefix": {
+    "action_div": 91,
+    "aff_eq": 65,
+    "affected_eq_action_div": 3,
+    "checked_edges": 159,
+    "fetch_fail": 0,
+    "non_pypi": 6,
+    "packages": 103,
+    "unknown": 244
+  },
+  "edge_count": 3,
+  "fixture_sha256": {
+    "claims": "551009f162b4d1c5b2a48847d76122ed007ac5222827bfe563f98be932b84780",
+    "edges": "dc0d2de411be29c821a15d7b73fb9af6830a6533f09b74996ba2b5f8a208521a",
+    "records": "12001da0130f62dc85bc34aba40d8d68cc6023c32aebed801e19288312b599df",
+    "release_universes": "4d2a003127474d6fb1a9f056d568c93d09d1f6c6d368de2dd083f54a4dc23b79"
+  },
+  "kind": "PUBLIC_ADVISORY_OVERLAP_FIXTURE",
+  "package_count": 2,
+  "record_count": 6,
+  "schema_version": 1
+}

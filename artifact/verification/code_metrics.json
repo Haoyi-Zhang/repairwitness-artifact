@@ -1,0 +1,13 @@
+{
+  "implementation_files": 31,
+  "implementation_lines": 8044,
+  "kind": "CODE_METRICS",
+  "python_packages": [
+    "action_suites",
+    "repairwitness"
+  ],
+  "schema_version": 1,
+  "status": "PASS",
+  "test_files": 13,
+  "test_lines": 770
+}

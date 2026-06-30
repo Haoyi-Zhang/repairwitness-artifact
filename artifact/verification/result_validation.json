@@ -1,0 +1,427 @@
+{
+  "adversarial_scalability": {
+    "algorithm": "RIGHT_ENDPOINT_INTERVAL_MULTICOVER",
+    "contract": "Dense-overlap interval control: 20,000 obligations over 10,000 releases with half-universe width and demand three. This is not a prevalence benchmark; it checks that the interval proof path is not only exercised on sparse favorable inputs. Runtime is reported as evidence and fails only if it exceeds the one-minute reproduction bound on the recorded environment.",
+    "demand": 3,
+    "finding_count": 0,
+    "findings": [],
+    "interval_width": 5000,
+    "kind": "ADVERSARIAL_SCALABILITY",
+    "obligation_count": 20000,
+    "peak_traced_bytes": 19955366,
+    "problem_sha256": "bcbe38b0905f553a58d3569d4581492bd4340d44609247802fa9f9e2ee8b94a9",
+    "release_count": 10000,
+    "runtime_seconds_bound": 60.0,
+    "schema_version": 1,
+    "selected_count": 6,
+    "solve_seconds": 22.720119006,
+    "status": "PASS",
+    "verify_seconds": 2.713526014
+  },
+  "baseline_fairness": {
+    "canonical_relation": "ACTION",
+    "comparator_count": 6,
+    "comparator_decision_rows": [
+      {
+        "abstained": 8,
+        "comparator": "ACTION",
+        "decided": 88,
+        "decision_rate": 0.9166666666666666,
+        "divergent": 32,
+        "edges": 96,
+        "equivalent": 56,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 0
+      },
+      {
+        "abstained": 0,
+        "comparator": "AFFECTED_SET",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 24,
+        "edges": 96,
+        "equivalent": 72,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 8
+      },
+      {
+        "abstained": 0,
+        "comparator": "RAW",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 96,
+        "edges": 96,
+        "equivalent": 0,
+        "false_divergence_count": 56,
+        "false_equivalence_count": 0
+      },
+      {
+        "abstained": 0,
+        "comparator": "STRUCTURAL",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 40,
+        "edges": 96,
+        "equivalent": 56,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 0
+      },
+      {
+        "abstained": 0,
+        "comparator": "UNIVERS",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 24,
+        "edges": 96,
+        "equivalent": 72,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 8
+      },
+      {
+        "abstained": 0,
+        "comparator": "VERS",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 32,
+        "edges": 96,
+        "equivalent": 64,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 8
+      }
+    ],
+    "contract": "Comparator baselines are locked before outcomes, retain abstentions in the denominator, disclose whether each comparator uses release-universe or repair-target information, report decision/abstention rates on redistributable synthetic controls, and replay a public-overlap construct witness where affected-set equality hides action divergence; OR-Library optimization baselines replay ratios from the same instances and known optima.",
+    "decision_domain": [
+      "EQUIVALENT",
+      "DIVERGENT",
+      "ABSTAIN"
+    ],
+    "finding_count": 0,
+    "findings": [],
+    "kind": "BASELINE_FAIRNESS",
+    "orlib_bounded_milp_mean_ratio": 1.0003225806451612,
+    "orlib_greedy_mean_ratio": 1.058950739794463,
+    "orlib_instances": 50,
+    "orlib_lp_guided_mean_ratio": 1.0832195855950137,
+    "public_overlap_action_divergent_edges": 3,
+    "public_overlap_affected_set_equal_edges": 3,
+    "schema_version": 1,
+    "status": "PASS",
+    "synthetic_advisory_status": "PASS",
+    "synthetic_negative_control_count": 56,
+    "synthetic_negative_control_false_divergence_count": 0,
+    "threshold_policy": "NO_POSTHOC_EFFECT_OR_SIGNIFICANCE_THRESHOLDS"
+  },
+  "coverage": {
+    "branch_aware_coverage_percent": 80.57349929100363,
+    "branch_coverage_percent": 71.23212321232123,
+    "contract": "Coverage is branch-aware and complemented by differential, mutation, independent optimization checkers, redistributable synthetic controls, scalability, and clean-replay validation. The 70% overall branch gate is a release floor, not a sufficiency claim; each core method file must also retain at least 60% branch coverage and 55% statement coverage.",
+    "core_branch_minimum": 60.0,
+    "core_method_files": [
+      {
+        "branch_coverage_percent": 61.666666666666664,
+        "file": "action_suites/semantics.py",
+        "statement_coverage_percent": 73.92996108949416
+      },
+      {
+        "branch_coverage_percent": 76.74418604651163,
+        "file": "action_suites/suite.py",
+        "statement_coverage_percent": 90.43062200956938
+      },
+      {
+        "branch_coverage_percent": 67.85714285714286,
+        "file": "repairwitness/certification.py",
+        "statement_coverage_percent": 87.61467889908256
+      },
+      {
+        "branch_coverage_percent": 68.75,
+        "file": "repairwitness/duality.py",
+        "statement_coverage_percent": 84.21052631578948
+      },
+      {
+        "branch_coverage_percent": 82.92682926829268,
+        "file": "repairwitness/interval.py",
+        "statement_coverage_percent": 89.7560975609756
+      },
+      {
+        "branch_coverage_percent": 63.333333333333336,
+        "file": "repairwitness/oracle.py",
+        "statement_coverage_percent": 70.0
+      },
+      {
+        "branch_coverage_percent": 74.07407407407408,
+        "file": "repairwitness/orlib.py",
+        "statement_coverage_percent": 82.31292517006803
+      },
+      {
+        "branch_coverage_percent": 73.92857142857143,
+        "file": "repairwitness/suite.py",
+        "statement_coverage_percent": 85.52631578947368
+      },
+      {
+        "branch_coverage_percent": 60.256410256410255,
+        "file": "repairwitness/weighted_interval.py",
+        "statement_coverage_percent": 78.85714285714286
+      }
+    ],
+    "core_statement_minimum": 55.0,
+    "covered_branches": 1295,
+    "failed_tests": 0,
+    "finding_count": 0,
+    "findings": [],
+    "kind": "COVERAGE_CONTRACT",
+    "num_branches": 1818,
+    "overall_branch_minimum": 70.0,
+    "overall_statement_minimum": 75.0,
+    "passed_tests": 98,
+    "schema_version": 1,
+    "statement_coverage_percent": 84.32325016559948,
+    "status": "PASS"
+  },
+  "method": {
+    "certificates_replayed": 1900,
+    "crosscheck_mutations_detected": 35,
+    "errors": [],
+    "ordered_scale_rows": 3,
+    "release_general_exact_agreement": 192,
+    "scale_rows": 4,
+    "semantic_mutations_detected": 29,
+    "status": "PASS"
+  },
+  "optimization_impact": {
+    "adversarial_obligation_count": 20000,
+    "adversarial_release_count": 10000,
+    "adversarial_solve_seconds": 22.720119006,
+    "contract": "Impact evidence is reported through historical SafetyDB witness compression, public-overlap source-level construct replay, independent optimization agreement, OR-Library quality, mutation rejection, redistributable synthetic action controls, ordered 100k-release scalability, and dense-overlap scalability. The historical compression magnitude is descriptive evidence, not a pass/fail threshold.",
+    "controlled_certificates_replayed": 1900,
+    "controlled_counterexamples": 0,
+    "finding_count": 0,
+    "findings": [],
+    "kind": "OPTIMIZATION_IMPACT",
+    "max_obligation_count": 100000,
+    "max_release_count": 100000,
+    "max_solve_seconds": 6.913489758,
+    "median_compression_vs_all_witnesses": 0.9024390243902439,
+    "ordered_scalability_max_solve_seconds": 1.4797266220000438,
+    "orlib_bounded_max_ratio": 1.0161290322580645,
+    "orlib_bounded_mean_ratio": 1.0003225806451612,
+    "orlib_bounded_optima": 49,
+    "orlib_greedy_mean_ratio": 1.058950739794463,
+    "orlib_instances": 50,
+    "orlib_lp_guided_mean_ratio": 1.0832195855950137,
+    "public_overlap_action_divergent_edges": 3,
+    "public_overlap_affected_set_equal_edges": 3,
+    "safetydb_exact_objective_max": 5,
+    "safetydb_exact_objective_median": 2,
+    "safetydb_groups": 97,
+    "safetydb_highs_exact_agreement": 97,
+    "schema_version": 1,
+    "status": "PASS",
+    "synthetic_false_divergence_count": 0,
+    "synthetic_negative_controls": 56
+  },
+  "orlib50": {
+    "errors": [],
+    "input_bytes": 5450228,
+    "instances": 50,
+    "report_sha256": "1b99abc96ba543cc3e086c81a8820f69d1dc62969be6f9f5096441c74a3440e7",
+    "status": "PASS"
+  },
+  "public_advisory_overlap": {
+    "action_divergent_edges": 3,
+    "affected_set_equal_edges": 3,
+    "claim_count": 6,
+    "contract": "A redistributable GHAD/PyPA overlap fixture is replayed from included source records and frozen PyPI release universes. It is a construct witness, not a prevalence estimate: all included edges have identical affected-release sets while repair-action semantics exposes a concrete target/mechanism difference.",
+    "edge_count": 3,
+    "edge_result_digest": "e04feaf630d2de29cac737ea435100a13c5c5d89e34d518283ea0b54b4add426",
+    "edge_results": [
+      {
+        "action_decision": "DIVERGENT",
+        "affected_set_decision": "EQUIVALENT",
+        "edge_id": "edge-03bd45e4d15ac63868b61d27",
+        "first_witness": "3.2",
+        "package_key": "pypi::plone",
+        "witness_count": 145
+      },
+      {
+        "action_decision": "DIVERGENT",
+        "affected_set_decision": "EQUIVALENT",
+        "edge_id": "edge-1173f9d5c0e82f20afea13a4",
+        "first_witness": "2.0.28",
+        "package_key": "pypi::rembg",
+        "witness_count": 29
+      },
+      {
+        "action_decision": "DIVERGENT",
+        "affected_set_decision": "EQUIVALENT",
+        "edge_id": "edge-12d8eaa3f9b2a99ee9eabca3",
+        "first_witness": "5.0",
+        "package_key": "pypi::plone",
+        "witness_count": 37
+      }
+    ],
+    "finding_count": 0,
+    "findings": [],
+    "fixture_sha256": {
+      "claims": "551009f162b4d1c5b2a48847d76122ed007ac5222827bfe563f98be932b84780",
+      "edges": "dc0d2de411be29c821a15d7b73fb9af6830a6533f09b74996ba2b5f8a208521a",
+      "records": "12001da0130f62dc85bc34aba40d8d68cc6023c32aebed801e19288312b599df",
+      "release_universes": "4d2a003127474d6fb1a9f056d568c93d09d1f6c6d368de2dd083f54a4dc23b79"
+    },
+    "kind": "PUBLIC_ADVISORY_OVERLAP",
+    "max_witnesses_per_edge": 145,
+    "min_witnesses_per_edge": 29,
+    "package_count": 2,
+    "record_count": 6,
+    "schema_version": 1,
+    "status": "PASS"
+  },
+  "safetydb": {
+    "divergent_edges": 570,
+    "edges": 602,
+    "errors": [],
+    "groups": 97,
+    "status": "PASS"
+  },
+  "safetydb_scope": {
+    "all_certificates_valid": true,
+    "benchmark": "Safety DB 2021.7.17 historical external benchmark",
+    "claims_with_cve": 1246,
+    "contract": "SafetyDB evidence is a frozen 2021.7.17 historical PyPI case study with digest-bound summaries and non-redistributed source inputs; it is not a current prevalence, full source-level reproducibility, or live-registry claim. Redistributable synthetic controls cover source-level semantics separately.",
+    "edges": 602,
+    "finding_count": 0,
+    "findings": [],
+    "groups_executed": 97,
+    "input_sha256": {
+      "insecure_full.json": "94bbd265271d36029fad36c837847311fcfc5eab346d10fb70bfa46c37c9c18e",
+      "release_universes.jsonl": "072fd464146b8d5cebff18e656ef29f26e1c56c4fbe0867972ddd49fd3badf8c"
+    },
+    "kind": "SAFETYDB_HISTORICAL_SCOPE",
+    "resolved_divergent_edges": 570,
+    "schema_version": 1,
+    "status": "PASS"
+  },
+  "schema_version": 1,
+  "status": "PASS",
+  "synthetic_advisory": {
+    "abstention_control_count": 8,
+    "canonical_decision_counts": {
+      "ABSTAIN": 8,
+      "DIVERGENT": 32,
+      "EQUIVALENT": 56
+    },
+    "certificate_rows": 16,
+    "claim_count": 192,
+    "comparator_decision_rows": [
+      {
+        "abstained": 8,
+        "comparator": "ACTION",
+        "decided": 88,
+        "decision_rate": 0.9166666666666666,
+        "divergent": 32,
+        "edges": 96,
+        "equivalent": 56,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 0
+      },
+      {
+        "abstained": 0,
+        "comparator": "AFFECTED_SET",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 24,
+        "edges": 96,
+        "equivalent": 72,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 8
+      },
+      {
+        "abstained": 0,
+        "comparator": "RAW",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 96,
+        "edges": 96,
+        "equivalent": 0,
+        "false_divergence_count": 56,
+        "false_equivalence_count": 0
+      },
+      {
+        "abstained": 0,
+        "comparator": "STRUCTURAL",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 40,
+        "edges": 96,
+        "equivalent": 56,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 0
+      },
+      {
+        "abstained": 0,
+        "comparator": "UNIVERS",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 24,
+        "edges": 96,
+        "equivalent": 72,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 8
+      },
+      {
+        "abstained": 0,
+        "comparator": "VERS",
+        "decided": 96,
+        "decision_rate": 1.0,
+        "divergent": 32,
+        "edges": 96,
+        "equivalent": 64,
+        "false_divergence_count": 0,
+        "false_equivalence_count": 8
+      }
+    ],
+    "contract": "Redistributable synthetic claim, edge, and release-universe JSONL fixtures exercise the action semantics, baseline abstentions, known-equivalent negative controls, divergent controls, and suite certificates without contributing to SafetyDB prevalence claims.",
+    "divergent_control_count": 32,
+    "divergent_control_missed_count": 0,
+    "edge_count": 96,
+    "expected_decision_counts": {
+      "ABSTAIN": 8,
+      "DIVERGENT": 32,
+      "EQUIVALENT": 56
+    },
+    "finding_count": 0,
+    "findings": [],
+    "fixture_sha256": {
+      "claims": "fb1c4400699ce1004387ee973ea5418545c0b8aa05c7f099f0c35b86cc16ff44",
+      "edges": "8580abe3674c35042e2c6eaf56fcd70dada076b94a9579b1ce517246346f9ebd",
+      "release_universes": "8512a34d0b285bbefae6f05e8ef37dbea588725f95dc11a31c12fd7f483dfaef"
+    },
+    "groups_with_suites": 8,
+    "kind": "SYNTHETIC_ADVISORY_BENCHMARK",
+    "max_exact_explored_nodes": 9,
+    "negative_control_count": 56,
+    "negative_control_false_divergence_count": 0,
+    "package_count": 12,
+    "schema_version": 1,
+    "status": "PASS",
+    "trace_digest_sha256": "f868a564698981d6f713157c09b615499c6f7393bec9616e0057491a9c849ed1"
+  },
+  "temporal_scope": {
+    "advisory_access_dates": {
+      "C-GHAD": "2026-06-22",
+      "C-GOVULNDB": "2026-06-22",
+      "C-PYPA": "2026-06-22",
+      "C-RUBYSEC": "2026-06-22",
+      "C-RUSTSEC": "2026-06-22"
+    },
+    "advisory_source_count": 5,
+    "contract": "The SafetyDB evidence is a frozen 2021.7.17 historical case study; 2026-06-22 advisory-source commits document current-source boundaries and provenance but are not mixed into a current-prevalence claim.",
+    "finding_count": 0,
+    "findings": [],
+    "historical_benchmark": "Safety DB 2021.7.17 historical external benchmark",
+    "historical_scope_status": "PASS",
+    "kind": "TEMPORAL_SCOPE",
+    "registry_family_count": 9,
+    "schema_version": 1,
+    "status": "PASS"
+  }
+}

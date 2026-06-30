@@ -1,0 +1,36 @@
+Name                                      Stmts   Miss Branch BrPart  Cover
+---------------------------------------------------------------------------
+action_suites/__init__.py                     5      0      0      0   100%
+action_suites/adapters.py                   127     13     38     10    86%
+action_suites/audit.py                       85     14     44     12    80%
+action_suites/authorization_verifier.py      64     12     32      6    81%
+action_suites/authorization_writer.py        35      6     14      6    76%
+action_suites/baselines.py                   72      3     26      1    96%
+action_suites/canonical.py                   62      5     12      3    89%
+action_suites/flow.py                        80     14     34     13    76%
+action_suites/frame.py                       83      3     26      3    94%
+action_suites/gates.py                       73     13     40     12    78%
+action_suites/model.py                      101      1     36      3    97%
+action_suites/package.py                     30     14      6      1    47%
+action_suites/qualification.py              147     29     44     19    75%
+action_suites/registries.py                 187     21     54     10    85%
+action_suites/runtime_guard.py                9      0      2      0   100%
+action_suites/semantics.py                  257     67    120     26    70%
+action_suites/sources.py                    151     49     52      8    67%
+action_suites/structural_pipeline.py         74      6     16      2    91%
+action_suites/suite.py                      209     20     86     20    86%
+action_suites/tomlcompat.py                 304     77    180     36    71%
+repairwitness/__init__.py                     4      0      0      0   100%
+repairwitness/audit.py                       82      5     42      5    92%
+repairwitness/canonical.py                   62      1     12      1    97%
+repairwitness/certification.py              218     27     84     23    82%
+repairwitness/duality.py                    171     27     80     25    79%
+repairwitness/interval.py                   205     21     82     14    88%
+repairwitness/net.py                        220     20     70     14    88%
+repairwitness/oracle.py                     110     33     60     10    68%
+repairwitness/orlib.py                      147     26     54     12    80%
+repairwitness/package.py                    296     47    114     40    79%
+repairwitness/suite.py                      684     99    280     47    82%
+repairwitness/weighted_interval.py          175     37     78     31    73%
+---------------------------------------------------------------------------
+TOTAL                                      4529    710   1818    413    81%

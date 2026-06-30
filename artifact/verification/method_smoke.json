@@ -1,0 +1,10 @@
+{
+  "counterexamples": 0,
+  "elapsed_seconds": 0.10660181194543839,
+  "failures": [],
+  "general_cross_oracle_cases": 120,
+  "interval_replay_cases": 120,
+  "schema_version": 1,
+  "seed": 20270630,
+  "status": "PASS"
+}

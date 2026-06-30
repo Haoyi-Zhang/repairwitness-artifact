@@ -1,0 +1,93 @@
+{
+  "canonical_relation": "ACTION",
+  "comparator_count": 6,
+  "comparator_decision_rows": [
+    {
+      "abstained": 8,
+      "comparator": "ACTION",
+      "decided": 88,
+      "decision_rate": 0.9166666666666666,
+      "divergent": 32,
+      "edges": 96,
+      "equivalent": 56,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 0
+    },
+    {
+      "abstained": 0,
+      "comparator": "AFFECTED_SET",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 24,
+      "edges": 96,
+      "equivalent": 72,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 8
+    },
+    {
+      "abstained": 0,
+      "comparator": "RAW",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 96,
+      "edges": 96,
+      "equivalent": 0,
+      "false_divergence_count": 56,
+      "false_equivalence_count": 0
+    },
+    {
+      "abstained": 0,
+      "comparator": "STRUCTURAL",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 40,
+      "edges": 96,
+      "equivalent": 56,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 0
+    },
+    {
+      "abstained": 0,
+      "comparator": "UNIVERS",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 24,
+      "edges": 96,
+      "equivalent": 72,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 8
+    },
+    {
+      "abstained": 0,
+      "comparator": "VERS",
+      "decided": 96,
+      "decision_rate": 1.0,
+      "divergent": 32,
+      "edges": 96,
+      "equivalent": 64,
+      "false_divergence_count": 0,
+      "false_equivalence_count": 8
+    }
+  ],
+  "contract": "Comparator baselines are locked before outcomes, retain abstentions in the denominator, disclose whether each comparator uses release-universe or repair-target information, report decision/abstention rates on redistributable synthetic controls, and replay a public-overlap construct witness where affected-set equality hides action divergence; OR-Library optimization baselines replay ratios from the same instances and known optima.",
+  "decision_domain": [
+    "EQUIVALENT",
+    "DIVERGENT",
+    "ABSTAIN"
+  ],
+  "finding_count": 0,
+  "findings": [],
+  "kind": "BASELINE_FAIRNESS",
+  "orlib_bounded_milp_mean_ratio": 1.0003225806451612,
+  "orlib_greedy_mean_ratio": 1.058950739794463,
+  "orlib_instances": 50,
+  "orlib_lp_guided_mean_ratio": 1.0832195855950137,
+  "public_overlap_action_divergent_edges": 3,
+  "public_overlap_affected_set_equal_edges": 3,
+  "schema_version": 1,
+  "status": "PASS",
+  "synthetic_advisory_status": "PASS",
+  "synthetic_negative_control_count": 56,
+  "synthetic_negative_control_false_divergence_count": 0,
+  "threshold_policy": "NO_POSTHOC_EFFECT_OR_SIGNIFICANCE_THRESHOLDS"
+}
